@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
 		
 		,glue={"stepDefinition", "hooks"},
 		
-		tags= {"@RegisterUser"},
+		tags= {"@Signin_signout"},
 		
 		plugin = {"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html"
 		},

@@ -18,7 +18,7 @@ public class TestDriver extends RootClass {
 		
 		if(browser.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "G:\\nanigit\\Automation_Practise\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "F:\\Automation\\Automation_Practise\\chromedriver.exe");
 			
 			ChromeOptions options = new ChromeOptions();
 
